@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech recognition</title>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+            <div id="transcribe">
+                     <div class="header">
+                        Transcribe
+                     </div>
+                     <div class="content">
+                      <p aria-placeholder="Say something">
+                        =>   
+                        <span id="final"></span>
+                        <span id="interim"></span>                  </p>
+                     </div>;
+            </div>
+
+            <div class="btn-container">
+        <div class="hide" id="msg">Transcribing....</div>
+        <div id="start-btn">Transcribe</div>
+         <div id="stop-btn">Assistant</div>
+        <!-- <div class="start-btn" id="start">Start</div>
+         <div class="stop-btn" id="stop">Stop</div> -->
+    </div>
+    
+    <div class="whole">
+    <div class="outer-container">
+       <div class="heading">
+           <h1>Speech Recognition </h1>
+       </div>
+        <div><img src="images/smaller.jpg" alt=""></div>
+
+       <div class="inner-container">
+           <div class="speeches">
+               <p class="reply">Hey,I am ready </p>
+           </div>
+       </div>
+    </div>
+</div>
+
+    <script src="./script.js"></script>
+    <script src="./transcribe.js"></script>
+
+</body>
+</html>
