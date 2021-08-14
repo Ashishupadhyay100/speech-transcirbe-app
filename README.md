@@ -7,9 +7,9 @@ A real time woring speech transcribing App using technolgies given below.
 
 1. git clone https://github.com/Ashishupadhyay100/speech-transcirbe-app
 
-2.Deployed(with Github Pages)  [This is the Link](https://ashishupadhyay100.github.io/speech-transcirbe-app/).
+2. Deployed(with Github Pages)  [This is the Link](https://ashishupadhyay100.github.io/speech-transcirbe-app/).
 
-3.Can try it  : https://ashishupadhyay100.github.io/speech-transcirbe-app/
+3. Can try it  : https://ashishupadhyay100.github.io/speech-transcirbe-app/
 
 
 ### Run the application
