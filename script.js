@@ -99,7 +99,7 @@ if ("webkitSpeechRecognition" in window) {
             if(text.includes("open Google")){
                p  = document.createElement("p");
                p.classList.add("reply");
-               p.innerText = "Ok..Opening the You tube";
+               p.innerText = "Ok..Opening the your Google";
                speech.appendChild(p);
                window.open("https://www.google.com/");
             } 
